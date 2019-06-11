@@ -10,7 +10,9 @@
   },
   "author": "frontendfunn",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "@material/button": "^2.3.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "autoprefixer": "^9.1.5",

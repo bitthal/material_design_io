@@ -11,7 +11,11 @@
   "author": "frontendfunn",
   "license": "ISC",
   "dependencies": {
-    "@material/button": "^2.3.0"
+    "@material/button": "^2.3.0",
+    "@material/fab": "^2.3.0",
+    "img-loader": "^3.0.1",
+    "jquery": "^3.4.1",
+    "material-components-web": "^2.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",

@@ -246,6 +246,153 @@
         Card
     </div>
 
+    <div class="mdc-card myCard">
+            <div class="mdc-card__primary-action">
+                <div class="mdc-card__media mdc-card__media--16-9" style="background-image: url('images/3.jpg')"></div>
+                <div class="mdc-card__media-content">Hello</div>
+                <div class="cardHeading">
+                    Heading goes here
+                </div>
+            </div>
+            <div class="mdc-card__actions">
+                <div class="mdc-card__action--buttons">
+                    <button class="mdc-button mdc-card__action--buttons">Click1</button>
+                    <button class="mdc-button mdc-button--unelevated mdc-card__action--buttons">Click2</button>
+                </div>
+                <div class="mdc-card__action-icons">
+                    <div class="mdc-card__action-icons">
+                            <button class="material-icons mdc-icon-button mdc-card__action mdc-card__action-icon">favorite</button>
+                            <button class="material-icons mdc-icon-button mdc-card__action mdc-card__action-icon">more_vert</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+    
+    <div class="text-center">--------------------Chips----------------------</div>
+
+    <div class="mb">
+        <div class="mb">Basic Chip Component</div>
+        <div class="mdc-chip-set">
+            <div class="mdc-chip">
+                <div class="mdc-chip__text">Basic Chip</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb">
+        <div class="mb">Chip with a Leading Icon</div>
+        <div class="mdc-chip-set">
+            <div class="mdc-chip">
+                <div class="material-icons mdc-chip__icon mdc-chip__icon--leading">favorite</div>
+                <div class="mdc-chip__text">Basic Chip</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb">
+        <div class="mb">Chip with a trailing icon</div>
+        <div class="mdc-chip-set">
+            <div class="mdc-chip">
+                <div class="mdc-chip__text">Basic Chip</div>
+                <div class="material-icons mdc-chip__icon mdc-chip__icon--trailing" role="button">close</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb">
+        <div class="mb">Choice chips</div>
+        <div class="mdc-chip-set mdc-chip-set--choice">
+            <div class="mdc-chip">
+                <div class="mdc-chip__text">Option1</div>
+            </div>
+            <div class="mdc-chip">
+                <div class="mdc-chip__text">Option2</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb">
+        <div class="mb">Filter chips</div>
+        <div class="mdc-chip-set mdc-chip-set--filter">
+            <div class="mdc-chip">
+                <div class="mdc-chip__checkmark">
+                        <svg class="mdc-chip__checkmark-svg" viewBox="-2 -3 30 30">
+                            <path class="mdc-chip__checkmark-path" fill="none" stroke="black" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                        </svg>
+                </div>
+                <div class="mdc-chip__text">Option1</div>
+            </div>
+            <div class="mdc-chip">
+                <div class="mdc-chip__checkmark">
+                        <svg class="mdc-chip__checkmark-svg" viewBox="-2 -3 30 30">
+                                <path class="mdc-chip__checkmark-path" fill="none" stroke="black" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                        </svg>
+                </div>
+                <div class="mdc-chip__text">Option2</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="mb">
+        <div class="mb">Filter chips with leading icon</div>
+        <div class="mdc-chip-set mdc-chip-set--filter">
+            <div class="mdc-chip">
+                <div class="mdc-chip__checkmark">
+                        <svg class="mdc-chip__checkmark-svg" viewBox="-2 -3 30 30">
+                            <path class="mdc-chip__checkmark-path" fill="none" stroke="black" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                        </svg>
+                </div>
+                <div class="mdc-chip__text">Option1</div>
+            </div>
+            <div class="mdc-chip">
+                <div class="material-icons mdc-chip__icon mdc-chip__icon--leading">favorite</div>
+                <div class="mdc-chip__checkmark">
+                        <svg class="mdc-chip__checkmark-svg" viewBox="-2 -3 30 30">
+                                <path class="mdc-chip__checkmark-path" fill="none" stroke="black" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                        </svg>
+                </div>
+                <div class="mdc-chip__text">Option2</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="mb">
+        <div class="mb">Preselected chips</div>
+        <div class="mdc-chip-set mdc-chip-set--choice">
+            <div class="mdc-chip mdc-chip--selected">
+                <div class="mdc-chip__text">Option1</div>
+            </div>
+            <div class="mdc-chip">
+                <div class="mdc-chip__text">Option2</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center">--------------------Dialog----------------------</div>
+
+    <div class="md block">
+        <button class="mdc-button mdc-button--raised showDialogBtn">
+            Non scrollable Dialog
+        </button>
+        <aside class="mdc-dialog">
+            <div class="mdc-dialog__surface">
+                <header class="mdc-dialog__header">
+                    <h2 class="mdc-dialog__header__title">HelloWorld</h2>
+                </header>
+                <section class="mdc-dialog__body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quam praesentium iste consequatur ut numquam laudantium odit minima. Explicabo porro cupiditate, quibusdam id repellendus exercitationem iure! Labore suscipit deleniti accusantium!
+                </section>
+                <footer class="mdc-dialog__footer">
+                    <button type="button" class="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--cancel">Decline</button>
+                    <button type="button" class="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--accept">Accept</button>
+                </footer>
+            </div>
+            <div class="mdc-dialog__backdrop"></div>
+        </aside>
+    </div>
+
+
     <script src="js/main.js"></script>
 </body>
 

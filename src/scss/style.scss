@@ -6,6 +6,8 @@
 @import "@material/icon-button/mdc-icon-button";
 @import "_variables";
 @import "@material/card/mdc-card";
+@import "@material/chips/mdc-chips";
+@import "@material/dialog/mdc-dialog";
 
 body{
     font-family: $fontFamily;
@@ -23,5 +25,9 @@ body{
     color: white;
 }
 .myCard{
-    max-width: 50px;
+    max-width: 450px;
+}
+.cardHeading{
+    padding: 10px;
+    font-size: 16px;
 }

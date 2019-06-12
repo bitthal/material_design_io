@@ -28,11 +28,17 @@ $(document).ready(function(){
     $(".mdc-chip-set").each(function(index, element){
         new MDCChipSet(element);
     });
-    $(".block").each(function(index,blockElement){
+    $(".block").each(function(index, blockElement) {
         let showDialogBtn = $(blockElement).find(".showDialogBtn");
         let dialog = new MDCDialog($(blockElement).find(".mdc-dialog")[0]);
-        showDialogBtn.on("click", function(){
-            dialog.show();
+        showDialogBtn.on("click", function() {
+          dialog.show();
         });
-    });
+        dialog.listen("MDCDialog:accept", function() {
+          console.log("Accepted");
+        });
+        dialog.listen("MDCDialog:cancel", function() {
+          console.log("Cancelled");
+        });
+      });
 });
